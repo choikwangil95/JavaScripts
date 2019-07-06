@@ -1,0 +1,21 @@
+# Java Scripts
+
+## Java Scripts
+JS는 웹에 쓰이는 하나뿐인 프로그래밍 언어임/ Interactive한 Web만드려면 JS 써야해<br/>
+JS로 인터랙티브 웹, 웹앱, 데스크톱 어플리케이션 등 다 만들 수 있음
+
+### JS Version
+JS는 Specification인데 어 체계화라는거고 Documents같은거인듯? 설명문<br/>
+ECMAScript6 는 이 specification의 version임
+
+### Vanilla JS
+바닐라 자바스크립트는 JS의 한 종류로 Library가 없는 것을 이야기함 이걸 배울예정
+
+### Relp
+간단한 Web editor로 작업하는것
+
+### html에서 JS작성법
+Body Tag 밑에 써줌으로써 파일을 추가해준다
+```html
+
+```
