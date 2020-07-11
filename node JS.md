@@ -5,8 +5,35 @@ node는 js가 웹에서 작동하는 것에서 벗어나 밖에서도 사용할 
 npm은 node package manager로 node 중앙 관리하는곳이라고 이해하면 됨 </br>
 JSON은 js가 데이터를 담는 방식 </br></br>
 
+### babel
 babel은 구식 JS를 최신 ES6로 바꿔주는 것 </br>
 ```javascript
 const express = require('express')  // node package에서 express 를 import
 import express from "express";  // babel로 ES6를 이용한 코드
 ```
+
+### middleware
+미들웨어는 서버의 양파 중앙부 같은 것</br>
+마지막 리턴 함수 전에 로그인 같은 것을 처리해 준다</br>
+미들웨어는 리턴 전에 얼마든지 마음대로 사용 가능 </br>
+
+```javascript
+// next 는 권한을 주는 것
+// 권한을 주지 않으면 다음 단계로 넘어가지 않는다
+const betweenHome = (req, res, next) => {   // 미들웨어 함수       
+    console.log("between");
+    next(); // 다음 함수 호출 (handleHome)
+}
+```
+#### logging middleware
+```javascript
+app.use(morgan("dev")); // logging middleware
+```
+#### helmet
+보안을 위한 middleware
+
+#### body-parser
+서버의 requset되는 정보를 parser
+
+#### cookie-parser
+session 처리를 위한 middleware, cookie에 유저 정보를 저장
