@@ -2,7 +2,7 @@
 
 ### Node, express, NPM, JSON ?
 node는 js가 웹에서 작동하는 것에서 벗어나 밖에서도 사용할 수 있게 해주는 프레임웤</br>
-express는 node에서 웹 프레임워크</br>
+express는 Node.js 웹 애플리케이션 프레임워크</br>
 npm은 node package manager로 node 중앙 관리하는곳이라고 이해하면 됨 </br>
 JSON은 js가 데이터를 담는 방식 </br></br>
 
