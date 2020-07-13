@@ -34,10 +34,10 @@ app.use(morgan("dev")); // logging middleware
 보안을 위한 middleware
 
 #### body-parser
-서버의 requset되는 정보를 parser
+사용자가 웹사이트로 전잘하는 정보들을 검사하는 미들웨어, request 정보
 
 #### cookie-parser
-session 처리를 위한 middleware, cookie에 유저 정보를 저장처
+cookie를 전달받아서 사용할 수 있도록 만들어주는 미들웨어, 사용자 인증에 사용됨
 
 ### MVC pattern
 django 에서 MTV처럼 </br>
