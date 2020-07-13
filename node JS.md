@@ -1,7 +1,8 @@
 ## 유튜브 클론코딩
 
-### Node, NPM, JSON ?
+### Node, express, NPM, JSON ?
 node는 js가 웹에서 작동하는 것에서 벗어나 밖에서도 사용할 수 있게 해주는 프레임웤</br>
+express는 node에서 웹 프레임워크</br>
 npm은 node package manager로 node 중앙 관리하는곳이라고 이해하면 됨 </br>
 JSON은 js가 데이터를 담는 방식 </br></br>
 
@@ -36,4 +37,10 @@ app.use(morgan("dev")); // logging middleware
 서버의 requset되는 정보를 parser
 
 #### cookie-parser
-session 처리를 위한 middleware, cookie에 유저 정보를 저장
+session 처리를 위한 middleware, cookie에 유저 정보를 저장처
+
+### MVC pattern
+django 에서 MTV처럼 </br>
+view, controller, model </br>
+html loading을 위해 pug 사용
+
