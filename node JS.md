@@ -42,5 +42,7 @@ session 처리를 위한 middleware, cookie에 유저 정보를 저장처
 ### MVC pattern
 django 에서 MTV처럼 </br>
 view, controller, model </br>
-html loading을 위해 pug 사용
+html loading을 위해 pug 사용 </br>
+pug는 express의 view engine</br>
+
 
