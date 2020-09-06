@@ -2,7 +2,8 @@
 
 ### Reference
 [promise 1](https://medium.com/@kiwanjung/%EB%B2%88%EC%97%AD-async-await-%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-promise%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-955dbac2c4a4)<br/>
-[바보들을 위한 Promise 강의](https://programmingsummaries.tistory.com/325)
+[바보들을 위한 Promise 강의](https://programmingsummaries.tistory.com/325)<br/>
+[Promise 쉽게 위해하기](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
 
 #### Overview
 JS는 작업들이 대부분 비동기로 이루어지며, 어떤 작업을 요청하면서 콜백 함수를 등록하면 작업이 수행되고 나서 결과를 나중에 콜백 함수를 통해 알려주는게 매우 흔하게 사용됨<br/>
