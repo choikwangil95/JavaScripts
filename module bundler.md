@@ -3,7 +3,8 @@ Node.js와 React를 사용할 때 묻지도 따지지도 말고 Webpack과 babel
 ## Result
 - 웹팩은 기본적으로 모듈 번들러다.
 - 엔트리로 그래프의 시작점을 설정하면 웹팩은 모든 자원을 모듈로 로딩한 후 아웃풋으로 묶어준다.
-- 로더로 각 모듈별로 바벨, 사스변환 등의 처리하고 이 결과를 플러그인이 받아 난독화, 텍스트 추출 등의 추가 작업을 한다.
+- 로더로 각 모듈별로 바벨, 비 자바스크립트인 사스 변환 등의 처리하고 
+- 플러그인이 결과를 받아 난독화, 텍스트 추출 등의 추가 작업을 한다.
 ### Reference
 [1 module bundler](https://2dubbing.tistory.com/57)<br/>
 [2 webpack](https://jeonghwan-kim.github.io/js/2017/05/15/webpack.html)
